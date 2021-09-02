@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.roomnav {
+  display: flex;
+  /* height: 50px; */
+  align-items: center;
+  background-color: aquamarine;
+}
+.roomtitle {
+  flex-grow: 2;
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.displaymsg {
+  height: 70vh;
+  background-color: rosybrown;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.msgcontain {
+  display: flex;
+  flex-direction: column;
+}
+.msg {
+  background-color: #5c2998;
+  border: 0;
+  color: white;
+  text-align: justify;
+  width: 40%;
+  padding: 1.9%;
+  font-size: 17px;
+  min-height: 11%;
+}
+.mymsg {
+  margin-top: 5px;
+  margin-right: 5px;
+  align-self: flex-end;
+  text-align: end;
+  box-shadow: 3px 5px 3px dimgrey;
+
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+.othermsg {
+  margin-top: 5px;
+  margin-left: 5px;
+  align-self: self-start;
+  box-shadow: -3px 5px 3px dimgrey;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+.msgbox {
+  width: 100%;
+  display: flex;
+}
+.inputmsg {
+  width: 92%;
+  height: 11vh;
+}
